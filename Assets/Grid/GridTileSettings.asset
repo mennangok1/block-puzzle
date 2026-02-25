@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: GridTileSettings
   m_EditorClassIdentifier: 
   rectangle:
-    prefab: {fileID: 0}
-    distance: {x: 0, y: 0}
+    prefab: {fileID: 825730220335625215, guid: 9b314fa27bd6642dab7bc00969da10fa, type: 3}
+    distance: {x: 0.5, y: 0.5}
   hexagon:
     prefab: {fileID: 0}
     distance: {x: 0, y: 0}
