@@ -41,6 +41,7 @@ public class Movable : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointe
         if (allowSetToGrid) 
         {
             PlaceBlockToGrid();
+            BaseGrid.Instance.CheckGrid();
         }
         else
         {
