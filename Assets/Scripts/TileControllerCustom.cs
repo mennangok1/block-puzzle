@@ -3,15 +3,10 @@ using MyGrid.Code;
 
 public class TileControllerCustom : TileController
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public Movable Movable {get; private set;}
+    public TileControllerCustom OnTile;
+    private void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Movable = GetComponent<Movable>();
     }
 }
